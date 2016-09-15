@@ -130,7 +130,18 @@ int main(void)
 			float ounces_decimal = weight_in_pounds - pounds_integer;
 			ounces_decimal = ounces_decimal * 16;
 
-			printf("Weight in pounds and ounces is: %d lb %.0f oz\n", pounds_integer, ounces_decimal);
+			if (ounces_decimal >= 15.5)
+			{
+				ounces_decimal = 0;
+				pounds_integer = pounds_integer + 1;
+				printf("Weight in pounds and ounces is: %d lb %.0f oz\n", pounds_integer, ounces_decimal);
+			}
+			
+			else
+			{
+				printf("Weight in pounds and ounces is: %d lb %.0f oz\n", pounds_integer, ounces_decimal);
+			}
+			
 		}
 
 		else if (number == 8)
