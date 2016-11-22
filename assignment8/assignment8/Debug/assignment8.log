@@ -1,0 +1,4 @@
+﻿  linkedlist.cpp
+c:\users\christian\documents\github\ee312_cjh3752\assignment8\linkedlist.cpp(43): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\christian\documents\github\ee312_cjh3752\assignment8\linkedlist.cpp(151): warning C4804: '<': unsafe use of type 'bool' in operation
+  assignment8.vcxproj -> C:\Users\Christian\Documents\GitHub\ee312_cjh3752\assignment8\Debug\assignment8.exe
